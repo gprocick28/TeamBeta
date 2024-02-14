@@ -5,10 +5,10 @@ var anim;
 function preload() {
     // img = loadImage('tile000.png');
     anim = loadAnimation(
-        'walk1.png',
-        'walk2.png',
-        'walk3.png',
-        'walk4.png'
+        'assets/tiles/walk1.png',
+        'assets/tiles/walk2.png',
+        'assets/tiles/walk3.png',
+        'assets/tiles/walk4.png'
     );
     anim.frameDelay = 15;
 }
